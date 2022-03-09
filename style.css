@@ -1,0 +1,80 @@
+body {
+    background-color: #1C1C1C;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+}
+main {
+    width: 550px;
+    font-weight: 400;
+    flex-direction: column;
+    margin: auto;
+    background-color: #1F2937;
+}
+.heading {
+    color: white;
+    background-color: #3A69D2;
+    text-align: center;
+    padding: 20 0 20 0;
+}
+h1 {
+    font-size: 40px;
+}
+.serviceButtons {
+    padding: 20px 20px;
+    display: flex;
+}
+.serviceButtons button {
+    padding: 12px;
+    margin: auto;    
+    background: #D1D4F4;
+    border: 1px solid #D5D4D8;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+.smallTitle {
+    font-size: 12px;
+    color: #D5D4D8;
+}
+.right {
+    text-align: right;
+}
+.line{
+    width: 510px;
+    height: 10px;
+    border-bottom: 1px solid #C3C6DB;
+    margin: auto;
+}
+.invButton {
+    margin-bottom: 70px;
+    background-color: #3A69D2;
+    color: white;
+    width: 100%;
+    padding: 9px;
+    border-radius: 7px;
+    border: none;
+    box-sizing: border-box;
+}
+.itemList {
+    font-size: 20px;
+    color: #F5F5F5;
+}
+.itemList a {
+    font-size: 8px;
+    color: #D5D4D8;
+}
+.itemPrice {
+    font-size: 24px;
+    color: white;
+    text-align: right;
+}
